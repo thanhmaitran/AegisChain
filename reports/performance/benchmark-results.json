@@ -1,0 +1,118 @@
+{
+  "environment": {
+    "python": "3.12.3",
+    "platform": "Linux-6.18.44-fc-v242-x86_64-with-glibc2.39",
+    "cpu_count": 1,
+    "note": "Offline pipeline with an empty static vulnerability provider; network latency to OSV is excluded."
+  },
+  "results": [
+    {
+      "dataset": "npm-small",
+      "ecosystem": "npm",
+      "components": 50,
+      "seconds_median": 0.007,
+      "seconds_min": 0.006,
+      "seconds_max": 0.007,
+      "peak_rss_mib_median": 37.4,
+      "stage_seconds_median": {
+        "ingestion": 0.001,
+        "dependency": 0.002,
+        "sbom": 0.002,
+        "vulnerability": 0.0,
+        "license": 0.0,
+        "policy": 0.0
+      },
+      "repeats": 5
+    },
+    {
+      "dataset": "npm-medium",
+      "ecosystem": "npm",
+      "components": 1000,
+      "seconds_median": 0.078,
+      "seconds_min": 0.076,
+      "seconds_max": 0.083,
+      "peak_rss_mib_median": 42.4,
+      "stage_seconds_median": {
+        "ingestion": 0.002,
+        "dependency": 0.021,
+        "sbom": 0.044,
+        "vulnerability": 0.0,
+        "license": 0.003,
+        "policy": 0.0
+      },
+      "repeats": 5
+    },
+    {
+      "dataset": "npm-large",
+      "ecosystem": "npm",
+      "components": 10000,
+      "seconds_median": 0.821,
+      "seconds_min": 0.777,
+      "seconds_max": 0.897,
+      "peak_rss_mib_median": 87.2,
+      "stage_seconds_median": {
+        "ingestion": 0.004,
+        "dependency": 0.292,
+        "sbom": 0.381,
+        "vulnerability": 0.001,
+        "license": 0.031,
+        "policy": 0.001
+      },
+      "repeats": 5
+    },
+    {
+      "dataset": "poetry-small",
+      "ecosystem": "poetry",
+      "components": 50,
+      "seconds_median": 0.007,
+      "seconds_min": 0.007,
+      "seconds_max": 0.008,
+      "peak_rss_mib_median": 37.3,
+      "stage_seconds_median": {
+        "ingestion": 0.001,
+        "dependency": 0.003,
+        "sbom": 0.001,
+        "vulnerability": 0.0,
+        "license": 0.0,
+        "policy": 0.0
+      },
+      "repeats": 5
+    },
+    {
+      "dataset": "poetry-medium",
+      "ecosystem": "poetry",
+      "components": 1000,
+      "seconds_median": 0.084,
+      "seconds_min": 0.083,
+      "seconds_max": 0.088,
+      "peak_rss_mib_median": 41.3,
+      "stage_seconds_median": {
+        "ingestion": 0.001,
+        "dependency": 0.04,
+        "sbom": 0.034,
+        "vulnerability": 0.0,
+        "license": 0.001,
+        "policy": 0.0
+      },
+      "repeats": 5
+    },
+    {
+      "dataset": "poetry-large",
+      "ecosystem": "poetry",
+      "components": 5000,
+      "seconds_median": 0.414,
+      "seconds_min": 0.401,
+      "seconds_max": 0.461,
+      "peak_rss_mib_median": 56.4,
+      "stage_seconds_median": {
+        "ingestion": 0.002,
+        "dependency": 0.25,
+        "sbom": 0.119,
+        "vulnerability": 0.001,
+        "license": 0.003,
+        "policy": 0.001
+      },
+      "repeats": 5
+    }
+  ]
+}
