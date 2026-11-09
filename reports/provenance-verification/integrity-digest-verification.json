@@ -1,0 +1,10 @@
+{
+  "area": "provenance-verification",
+  "evaluation": "integrity-digest-verification",
+  "passed": 1004,
+  "total": 1004,
+  "unmodified_accepted": 500,
+  "single_bit_flips_detected": 500,
+  "trials": 500,
+  "edge_cases_ok": 4
+}

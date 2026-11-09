@@ -1,0 +1,64 @@
+{
+  "area": "provenance-verification",
+  "evaluation": "evidence-classification",
+  "passed": 11,
+  "total": 11,
+  "cases": [
+    {
+      "case": "valid + valid signature",
+      "expected": "PASS",
+      "got": "PASS"
+    },
+    {
+      "case": "valid + failed signature",
+      "expected": "FAIL",
+      "got": "FAIL"
+    },
+    {
+      "case": "valid + unverifiable signature",
+      "expected": "INDETERMINATE",
+      "got": "INDETERMINATE"
+    },
+    {
+      "case": "wrong subject digest",
+      "expected": "FAIL",
+      "got": "FAIL"
+    },
+    {
+      "case": "untrusted builder",
+      "expected": "FAIL",
+      "got": "FAIL"
+    },
+    {
+      "case": "untrusted source",
+      "expected": "FAIL",
+      "got": "FAIL"
+    },
+    {
+      "case": "no trust policy configured",
+      "expected": "INDETERMINATE",
+      "got": "INDETERMINATE"
+    },
+    {
+      "case": "non-SLSA predicate",
+      "expected": "FAIL",
+      "got": "FAIL"
+    },
+    {
+      "case": "garbage",
+      "expected": "FAIL",
+      "got": "FAIL"
+    },
+    {
+      "case": "empty subjects",
+      "expected": "FAIL",
+      "got": "FAIL"
+    },
+    {
+      "case": "no provenance supplied",
+      "expected": "INDETERMINATE",
+      "got": "INDETERMINATE"
+    }
+  ],
+  "note": "Signature backend is a test double; Sigstore itself is not exercised offline."
+}
