@@ -443,19 +443,19 @@ AegisChain has undergone local execution and verification on Windows, including 
 | Ingestion | 14 |
 | **Total** | **151** |
 
-![Security engine test results](artifacts/screenshots/02-security-engines/02-security-engines.png)
+![Security engine test results](artifacts/screenshots/02-security-engines/02-security-engines.png.png)
 
 *Independent test execution across the eight core security engines.*
 
 ### Backend API tests
 
-![Backend API tests](artifacts/screenshots/03-backend-api/03-backend-api-tests.png)
+![Backend API tests](artifacts/screenshots/03-backend-api/03-backend-api-tests.png.png)
 
 *Backend API service-layer tests covering the application's API services. The recorded result was 12 passed tests.*
 
 ### End-to-end pipeline
 
-![End-to-end pipeline tests](artifacts/screenshots/04-end-to-end/04-e2e-pipeline.png)
+![End-to-end pipeline tests](artifacts/screenshots/04-end-to-end/04-e2e-pipeline.png.png)
 
 *End-to-end pipeline verification. The latest targeted execution completed with 13 passed tests in 2.07 seconds.*
 
@@ -470,7 +470,7 @@ The project was checked using Ruff and mypy.
 | mypy strict type checking | Passed |
 | mypy source files | 82 files |
 
-![Code quality verification](artifacts/screenshots/05-code-quality/05-ruff-mypy-quality.png)
+![Code quality verification](artifacts/screenshots/05-code-quality/05-ruff-mypy-quality.png.png)
 
 *Static analysis and type-checking results from the local development environment.*
 
@@ -486,7 +486,7 @@ The React and TypeScript frontend was installed, type-checked, tested, and built
 | Frontend unit tests | 1 passed |
 | Production build | Passed |
 
-![Frontend build and tests](artifacts/screenshots/06-frontend/06-frontend-build-tests.png)
+![Frontend build and tests](artifacts/screenshots/06-frontend/06-frontend-build-tests.png.png)
 
 *Frontend verification showing TypeScript checks, unit testing, and Vite production build output.*
 
@@ -504,7 +504,7 @@ The full application stack was built and started using Docker Compose.
 | Web container | Running |
 | Docker image builds | Successful |
 
-![Docker Compose status](artifacts/screenshots/07-docker/07-docker-compose-status.png)
+![Docker Compose status](artifacts/screenshots/07-docker/07-docker-compose-status.png.png)
 
 *Docker Compose service status showing the locally deployed database, API, and frontend containers.*
 
@@ -522,7 +522,7 @@ Observed response:
 
 HTTP status: `200 OK`.
 
-![API health response](artifacts/screenshots/08-api-health/08-api-health.png)
+![API health response](artifacts/screenshots/08-api-health/08-api-health.png.png)
 
 *Successful HTTP health response from the running API container.*
 
@@ -532,7 +532,7 @@ The frontend server responded successfully at:
 
 `http://localhost:8080`
 
-![AegisChain frontend](artifacts/screenshots/09-frontend-health/09-frontend-dashboard.png)
+![AegisChain frontend](artifacts/screenshots/09-frontend-health/09-frontend-dashboard.png.png)
 
 *Local frontend interface served through the Dockerised web application. A successful HTTP response confirms server availability, not that every dashboard interaction has been tested.*
 
@@ -544,13 +544,13 @@ AegisChain generated CycloneDX and SPDX SBOM outputs for both Python and Node.js
 
 ### CycloneDX 1.5
 
-![Python CycloneDX SBOM](artifacts/screenshots/10-sbom/10-sbom-cyclonedx-python.png)
+![Python CycloneDX SBOM](artifacts/screenshots/10-sbom/10-sbom-cyclonedx-python.png.png)
 
 *CycloneDX 1.5 output generated from the Python example project, including component and dependency information.*
 
 ### SPDX 2.3
 
-![Python SPDX SBOM](artifacts/screenshots/10-sbom/10-sbom-spdx-python.png)
+![Python SPDX SBOM](artifacts/screenshots/10-sbom/10-sbom-cyclonedx-python.png.png)
 
 *Corresponding SPDX 2.3 output generated from the same analysis model.*
 
