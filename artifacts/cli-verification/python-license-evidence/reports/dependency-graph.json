@@ -1,0 +1,163 @@
+{
+  "edges": [
+    {
+      "source": "pkg:pypi/anyio@4.4.0",
+      "target": "pkg:pypi/idna@3.7"
+    },
+    {
+      "source": "pkg:pypi/fastapi@0.115.0",
+      "target": "pkg:pypi/pydantic@2.9.2"
+    },
+    {
+      "source": "pkg:pypi/fastapi@0.115.0",
+      "target": "pkg:pypi/starlette@0.38.2"
+    },
+    {
+      "source": "pkg:pypi/pytest@8.3.0",
+      "target": "pkg:pypi/iniconfig@2.0.0"
+    },
+    {
+      "source": "pkg:pypi/pytest@8.3.0",
+      "target": "pkg:pypi/pluggy@1.5.0"
+    },
+    {
+      "source": "pkg:pypi/requests@2.32.0",
+      "target": "pkg:pypi/certifi@2024.2.2"
+    },
+    {
+      "source": "pkg:pypi/requests@2.32.0",
+      "target": "pkg:pypi/charset-normalizer@3.3.2"
+    },
+    {
+      "source": "pkg:pypi/requests@2.32.0",
+      "target": "pkg:pypi/idna@3.7"
+    },
+    {
+      "source": "pkg:pypi/requests@2.32.0",
+      "target": "pkg:pypi/urllib3@2.2.1"
+    },
+    {
+      "source": "pkg:pypi/starlette@0.38.2",
+      "target": "pkg:pypi/anyio@4.4.0"
+    }
+  ],
+  "nodes": [
+    {
+      "depth": 3,
+      "direct": false,
+      "ecosystem": "PyPI",
+      "id": "pkg:pypi/anyio@4.4.0",
+      "name": "anyio",
+      "scope": "runtime",
+      "version": "4.4.0"
+    },
+    {
+      "depth": 2,
+      "direct": false,
+      "ecosystem": "PyPI",
+      "id": "pkg:pypi/certifi@2024.2.2",
+      "name": "certifi",
+      "scope": "runtime",
+      "version": "2024.2.2"
+    },
+    {
+      "depth": 2,
+      "direct": false,
+      "ecosystem": "PyPI",
+      "id": "pkg:pypi/charset-normalizer@3.3.2",
+      "name": "charset-normalizer",
+      "scope": "runtime",
+      "version": "3.3.2"
+    },
+    {
+      "depth": 1,
+      "direct": true,
+      "ecosystem": "PyPI",
+      "id": "pkg:pypi/fastapi@0.115.0",
+      "name": "fastapi",
+      "scope": "runtime",
+      "version": "0.115.0"
+    },
+    {
+      "depth": 2,
+      "direct": false,
+      "ecosystem": "PyPI",
+      "id": "pkg:pypi/idna@3.7",
+      "name": "idna",
+      "scope": "runtime",
+      "version": "3.7"
+    },
+    {
+      "depth": 2,
+      "direct": false,
+      "ecosystem": "PyPI",
+      "id": "pkg:pypi/iniconfig@2.0.0",
+      "name": "iniconfig",
+      "scope": "dev",
+      "version": "2.0.0"
+    },
+    {
+      "depth": 2,
+      "direct": false,
+      "ecosystem": "PyPI",
+      "id": "pkg:pypi/pluggy@1.5.0",
+      "name": "pluggy",
+      "scope": "dev",
+      "version": "1.5.0"
+    },
+    {
+      "depth": 2,
+      "direct": false,
+      "ecosystem": "PyPI",
+      "id": "pkg:pypi/pydantic@2.9.2",
+      "name": "pydantic",
+      "scope": "runtime",
+      "version": "2.9.2"
+    },
+    {
+      "depth": 1,
+      "direct": true,
+      "ecosystem": "PyPI",
+      "id": "pkg:pypi/pytest@8.3.0",
+      "name": "pytest",
+      "scope": "dev",
+      "version": "8.3.0"
+    },
+    {
+      "depth": 1,
+      "direct": true,
+      "ecosystem": "PyPI",
+      "id": "pkg:pypi/pyyaml@5.3",
+      "name": "pyyaml",
+      "scope": "runtime",
+      "version": "5.3"
+    },
+    {
+      "depth": 1,
+      "direct": true,
+      "ecosystem": "PyPI",
+      "id": "pkg:pypi/requests@2.32.0",
+      "name": "requests",
+      "scope": "runtime",
+      "version": "2.32.0"
+    },
+    {
+      "depth": 2,
+      "direct": false,
+      "ecosystem": "PyPI",
+      "id": "pkg:pypi/starlette@0.38.2",
+      "name": "starlette",
+      "scope": "runtime",
+      "version": "0.38.2"
+    },
+    {
+      "depth": 2,
+      "direct": false,
+      "ecosystem": "PyPI",
+      "id": "pkg:pypi/urllib3@2.2.1",
+      "name": "urllib3",
+      "scope": "runtime",
+      "version": "2.2.1"
+    }
+  ]
+}
