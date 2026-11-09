@@ -1,0 +1,283 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "created": "2026-11-09T01:05:03Z",
+    "creators": [
+      "Tool: aegischain-0.1.0"
+    ]
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://aegischain.invalid/spdx/node-project-24288471-778a-52d9-93da-63dbee59cce4",
+  "name": "node-project-sbom",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-RootPackage",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "node-project"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-accepts-f222d6ff",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "55d2db67459d4a19171d2377c58fa22e5da4f10e6be133be605a07191cc84bf79ab8e1c5d57c8ce916cb4f91d85408d892cb63bc2f6ce40a52a514b30c2f02ff"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/accepts@1.3.8",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "name": "accepts",
+      "versionInfo": "1.3.8"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-debug-5d1c64cf",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "b4d2a28c50f7976313b914b783900e755d1b8bda9114aa9a39e179517cfb15d27efac86a8a4016dd434b7f31cbbe90658a9038280a85954016ee5f1dc7248adb"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/debug@2.6.9",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "name": "debug",
+      "versionInfo": "2.6.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-debug-8056d500",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "c08b3208d2db87eb37c6b928ce6e022fae189a9e5a717f140a05f9a7d11dbe9c5aa918eb78ed10c0a7cbe0e121c72e34c4e92e69891c0be31ed62731d928ae5d"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/debug@4.3.4",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "name": "debug",
+      "versionInfo": "4.3.4"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-express-0978f4b9",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "0cadc7020b142d22456f49df7433a8b1ca3c0a33aaac09e1cad16393ec064a5b33a816141f2677bcaded329bc493a629fa57bf8608afa9d63e8c11d2a56ebe71"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/express@4.18.2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "name": "express",
+      "versionInfo": "4.18.2"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-lodash-ef1bdbd9",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "7854bb64e7dbe558d1eed0689a1373e5983373b2ec24b47923ca5f11898fa94b9d0dfd504708015c8970f8b83be24e9c0b422a19d62db896ece0ecdfb911460d"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/lodash@4.17.21",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "name": "lodash",
+      "versionInfo": "4.17.21"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-mocha-34407572",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "86955e311f1623ab598e54944f8285c1ba6c03c06c874922101da2e4a2d6047f8508c5f996756001276ae78feaba61bb55447faf18ec6d3abe73fd14d4267e67"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/mocha@10.2.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "name": "mocha",
+      "versionInfo": "10.2.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-ms-88883592",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "489cef6455ca660d286c5dda96b74ad68e79c28f3d9bc5f57aa021ce786de18efe307413fcd2b5e6d797ebdc8a2b3c80783c78bfc022ac4b3ba734e282524a41"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/ms@2.0.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "name": "ms",
+      "versionInfo": "2.0.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-ms-d9640396",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "5e2d93c02248f683c1912b0a8c15f3defc1e2777fb98687fa4248e7cbab4aeac2049a44f081a00a1a178dab948af8954d5391ff6d281cf40e92db4eeaaf98d31"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/ms@2.1.2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "name": "ms",
+      "versionInfo": "2.1.2"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-negotiator-da520369",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "7c413e400a0820f82b04c7361b0caee70a29f62d66edc17c780ad2a3cd166ba833fd0f93f10d340611e4f198d10ea0d6b0e85678c6f713506ae6f50a2157163b"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/negotiator@0.6.3",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "name": "negotiator",
+      "versionInfo": "0.6.3"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-RootPackage",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-express-0978f4b9",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-RootPackage"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-lodash-ef1bdbd9",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-RootPackage"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-mocha-34407572",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-RootPackage"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-negotiator-da520369",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-accepts-f222d6ff"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-ms-88883592",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-debug-5d1c64cf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-ms-d9640396",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-debug-8056d500"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-accepts-f222d6ff",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-express-0978f4b9"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-debug-5d1c64cf",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-express-0978f4b9"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-debug-8056d500",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-mocha-34407572"
+    }
+  ],
+  "spdxVersion": "SPDX-2.3"
+}
