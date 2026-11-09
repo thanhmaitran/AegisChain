@@ -1,0 +1,400 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "created": "2026-01-01T00:00:00Z",
+    "creators": [
+      "Tool: aegischain-0.1.0"
+    ]
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://aegischain.invalid/spdx/python-project-e42aa3ee-ebd1-5576-8d97-ed3963c2eeef",
+  "name": "python-project-sbom",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-RootPackage",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "python-project"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-anyio-7047973f",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "98779a454109c948a9795260c47af0c02bf95da691e941ea5fa1d64bd0a0cb11"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:pypi/anyio@4.4.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "anyio",
+      "versionInfo": "4.4.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-certifi-0e747126",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e8ec0815b0cf871bd9c52d3bb3d77927aaf5c6bd1cc00faba4888a7ca395f68b"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:pypi/certifi@2024.2.2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "certifi",
+      "versionInfo": "2024.2.2"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-charset-normalizer-b3e8a1f5",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a425122e7db936a1f4054dba2d3a6b257cb523bd64bbc4d1946f26252b921583"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:pypi/charset-normalizer@3.3.2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "charset-normalizer",
+      "versionInfo": "3.3.2"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-fastapi-db5da57d",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "cb960e024424aa5fc413b8d4af88cf019c485d9e189c1305a628839d5d8321d9"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:pypi/fastapi@0.115.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "fastapi",
+      "versionInfo": "0.115.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-idna-5608a423",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0acce64fc5e058d3d1bd4a2a1fe30b150450cbbceb14da95ec9d5dcb7a93c0ef"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:pypi/idna@3.7",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "idna",
+      "versionInfo": "3.7"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-iniconfig-d54846cc",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5121f950610ff768d89cce5719dbe8045f33dc0f4a5e927abe920d753b825da2"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:pypi/iniconfig@2.0.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "iniconfig",
+      "versionInfo": "2.0.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-pluggy-eae8d6a9",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0473edf6b635d431ab26c5c58c18e16279f3a527b2ea55f79a4c62565b524af9"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:pypi/pluggy@1.5.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "pluggy",
+      "versionInfo": "1.5.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-pydantic-8e806849",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "843d457fd0a7cf769969f2e9f9b5060c043e8f4c848e22c958a06d4b46c4c163"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:pypi/pydantic@2.9.2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "pydantic",
+      "versionInfo": "2.9.2"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-pytest-cdd598f6",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "676ccc0df5029c359c5a02e47e37fae55114040e832084ef3fc67833473fda4b"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:pypi/pytest@8.3.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "pytest",
+      "versionInfo": "8.3.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-pyyaml-3bc5c532",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0f2461e363d55f78e02dda353bf10b42ad6696a680fcfff870f67809234b70bc"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:pypi/pyyaml@5.3",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "pyyaml",
+      "versionInfo": "5.3"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-requests-5e743d55",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0c4e5fb553ff75a6f53051321f0d726dde14bb4a9f90a8cbf30b3ff833d9b7ea"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:pypi/requests@2.32.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "requests",
+      "versionInfo": "2.32.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-starlette-d785cee9",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0f87a124ef5a68059a5c336ff7d67758c03840ea2c57dc5d6b74f00cfb1a5443"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:pypi/starlette@0.38.2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "starlette",
+      "versionInfo": "0.38.2"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-urllib3-f2667d3b",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1981393796a73392623c90c6a71e2a1764f60bf89976430a7cecbe3a1c165f03"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:pypi/urllib3@2.2.1",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "urllib3",
+      "versionInfo": "2.2.1"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-RootPackage",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-fastapi-db5da57d",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-RootPackage"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-pytest-cdd598f6",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-RootPackage"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-pyyaml-3bc5c532",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-RootPackage"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-requests-5e743d55",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-RootPackage"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-idna-5608a423",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-anyio-7047973f"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-pydantic-8e806849",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-fastapi-db5da57d"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-starlette-d785cee9",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-fastapi-db5da57d"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-iniconfig-d54846cc",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-pytest-cdd598f6"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-pluggy-eae8d6a9",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-pytest-cdd598f6"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-certifi-0e747126",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-requests-5e743d55"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-charset-normalizer-b3e8a1f5",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-requests-5e743d55"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-idna-5608a423",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-requests-5e743d55"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-urllib3-f2667d3b",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-requests-5e743d55"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-anyio-7047973f",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-starlette-d785cee9"
+    }
+  ],
+  "spdxVersion": "SPDX-2.3"
+}
