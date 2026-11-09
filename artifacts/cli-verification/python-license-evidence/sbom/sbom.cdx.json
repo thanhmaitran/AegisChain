@@ -1,0 +1,472 @@
+{
+  "bomFormat": "CycloneDX",
+  "components": [
+    {
+      "bom-ref": "pkg:pypi/anyio@4.4.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "98779a454109c948a9795260c47af0c02bf95da691e941ea5fa1d64bd0a0cb11"
+        }
+      ],
+      "name": "anyio",
+      "properties": [
+        {
+          "name": "aegischain:direct",
+          "value": "false"
+        },
+        {
+          "name": "aegischain:ecosystem",
+          "value": "PyPI"
+        },
+        {
+          "name": "aegischain:scope",
+          "value": "runtime"
+        }
+      ],
+      "purl": "pkg:pypi/anyio@4.4.0",
+      "scope": "required",
+      "type": "library",
+      "version": "4.4.0"
+    },
+    {
+      "bom-ref": "pkg:pypi/certifi@2024.2.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e8ec0815b0cf871bd9c52d3bb3d77927aaf5c6bd1cc00faba4888a7ca395f68b"
+        }
+      ],
+      "name": "certifi",
+      "properties": [
+        {
+          "name": "aegischain:direct",
+          "value": "false"
+        },
+        {
+          "name": "aegischain:ecosystem",
+          "value": "PyPI"
+        },
+        {
+          "name": "aegischain:scope",
+          "value": "runtime"
+        }
+      ],
+      "purl": "pkg:pypi/certifi@2024.2.2",
+      "scope": "required",
+      "type": "library",
+      "version": "2024.2.2"
+    },
+    {
+      "bom-ref": "pkg:pypi/charset-normalizer@3.3.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "a425122e7db936a1f4054dba2d3a6b257cb523bd64bbc4d1946f26252b921583"
+        }
+      ],
+      "name": "charset-normalizer",
+      "properties": [
+        {
+          "name": "aegischain:direct",
+          "value": "false"
+        },
+        {
+          "name": "aegischain:ecosystem",
+          "value": "PyPI"
+        },
+        {
+          "name": "aegischain:scope",
+          "value": "runtime"
+        }
+      ],
+      "purl": "pkg:pypi/charset-normalizer@3.3.2",
+      "scope": "required",
+      "type": "library",
+      "version": "3.3.2"
+    },
+    {
+      "bom-ref": "pkg:pypi/fastapi@0.115.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "cb960e024424aa5fc413b8d4af88cf019c485d9e189c1305a628839d5d8321d9"
+        }
+      ],
+      "name": "fastapi",
+      "properties": [
+        {
+          "name": "aegischain:direct",
+          "value": "true"
+        },
+        {
+          "name": "aegischain:ecosystem",
+          "value": "PyPI"
+        },
+        {
+          "name": "aegischain:scope",
+          "value": "runtime"
+        }
+      ],
+      "purl": "pkg:pypi/fastapi@0.115.0",
+      "scope": "required",
+      "type": "library",
+      "version": "0.115.0"
+    },
+    {
+      "bom-ref": "pkg:pypi/idna@3.7",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "0acce64fc5e058d3d1bd4a2a1fe30b150450cbbceb14da95ec9d5dcb7a93c0ef"
+        }
+      ],
+      "name": "idna",
+      "properties": [
+        {
+          "name": "aegischain:direct",
+          "value": "false"
+        },
+        {
+          "name": "aegischain:ecosystem",
+          "value": "PyPI"
+        },
+        {
+          "name": "aegischain:scope",
+          "value": "runtime"
+        }
+      ],
+      "purl": "pkg:pypi/idna@3.7",
+      "scope": "required",
+      "type": "library",
+      "version": "3.7"
+    },
+    {
+      "bom-ref": "pkg:pypi/iniconfig@2.0.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "5121f950610ff768d89cce5719dbe8045f33dc0f4a5e927abe920d753b825da2"
+        }
+      ],
+      "name": "iniconfig",
+      "properties": [
+        {
+          "name": "aegischain:direct",
+          "value": "false"
+        },
+        {
+          "name": "aegischain:ecosystem",
+          "value": "PyPI"
+        },
+        {
+          "name": "aegischain:scope",
+          "value": "dev"
+        }
+      ],
+      "purl": "pkg:pypi/iniconfig@2.0.0",
+      "scope": "excluded",
+      "type": "library",
+      "version": "2.0.0"
+    },
+    {
+      "bom-ref": "pkg:pypi/pluggy@1.5.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "0473edf6b635d431ab26c5c58c18e16279f3a527b2ea55f79a4c62565b524af9"
+        }
+      ],
+      "name": "pluggy",
+      "properties": [
+        {
+          "name": "aegischain:direct",
+          "value": "false"
+        },
+        {
+          "name": "aegischain:ecosystem",
+          "value": "PyPI"
+        },
+        {
+          "name": "aegischain:scope",
+          "value": "dev"
+        }
+      ],
+      "purl": "pkg:pypi/pluggy@1.5.0",
+      "scope": "excluded",
+      "type": "library",
+      "version": "1.5.0"
+    },
+    {
+      "bom-ref": "pkg:pypi/pydantic@2.9.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "843d457fd0a7cf769969f2e9f9b5060c043e8f4c848e22c958a06d4b46c4c163"
+        }
+      ],
+      "name": "pydantic",
+      "properties": [
+        {
+          "name": "aegischain:direct",
+          "value": "false"
+        },
+        {
+          "name": "aegischain:ecosystem",
+          "value": "PyPI"
+        },
+        {
+          "name": "aegischain:scope",
+          "value": "runtime"
+        }
+      ],
+      "purl": "pkg:pypi/pydantic@2.9.2",
+      "scope": "required",
+      "type": "library",
+      "version": "2.9.2"
+    },
+    {
+      "bom-ref": "pkg:pypi/pytest@8.3.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "676ccc0df5029c359c5a02e47e37fae55114040e832084ef3fc67833473fda4b"
+        }
+      ],
+      "name": "pytest",
+      "properties": [
+        {
+          "name": "aegischain:direct",
+          "value": "true"
+        },
+        {
+          "name": "aegischain:ecosystem",
+          "value": "PyPI"
+        },
+        {
+          "name": "aegischain:scope",
+          "value": "dev"
+        }
+      ],
+      "purl": "pkg:pypi/pytest@8.3.0",
+      "scope": "excluded",
+      "type": "library",
+      "version": "8.3.0"
+    },
+    {
+      "bom-ref": "pkg:pypi/pyyaml@5.3",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "0f2461e363d55f78e02dda353bf10b42ad6696a680fcfff870f67809234b70bc"
+        }
+      ],
+      "name": "pyyaml",
+      "properties": [
+        {
+          "name": "aegischain:direct",
+          "value": "true"
+        },
+        {
+          "name": "aegischain:ecosystem",
+          "value": "PyPI"
+        },
+        {
+          "name": "aegischain:scope",
+          "value": "runtime"
+        }
+      ],
+      "purl": "pkg:pypi/pyyaml@5.3",
+      "scope": "required",
+      "type": "library",
+      "version": "5.3"
+    },
+    {
+      "bom-ref": "pkg:pypi/requests@2.32.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "0c4e5fb553ff75a6f53051321f0d726dde14bb4a9f90a8cbf30b3ff833d9b7ea"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "requests",
+      "properties": [
+        {
+          "name": "aegischain:direct",
+          "value": "true"
+        },
+        {
+          "name": "aegischain:ecosystem",
+          "value": "PyPI"
+        },
+        {
+          "name": "aegischain:scope",
+          "value": "runtime"
+        }
+      ],
+      "purl": "pkg:pypi/requests@2.32.0",
+      "scope": "required",
+      "type": "library",
+      "version": "2.32.0"
+    },
+    {
+      "bom-ref": "pkg:pypi/starlette@0.38.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "0f87a124ef5a68059a5c336ff7d67758c03840ea2c57dc5d6b74f00cfb1a5443"
+        }
+      ],
+      "name": "starlette",
+      "properties": [
+        {
+          "name": "aegischain:direct",
+          "value": "false"
+        },
+        {
+          "name": "aegischain:ecosystem",
+          "value": "PyPI"
+        },
+        {
+          "name": "aegischain:scope",
+          "value": "runtime"
+        }
+      ],
+      "purl": "pkg:pypi/starlette@0.38.2",
+      "scope": "required",
+      "type": "library",
+      "version": "0.38.2"
+    },
+    {
+      "bom-ref": "pkg:pypi/urllib3@2.2.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "1981393796a73392623c90c6a71e2a1764f60bf89976430a7cecbe3a1c165f03"
+        }
+      ],
+      "name": "urllib3",
+      "properties": [
+        {
+          "name": "aegischain:direct",
+          "value": "false"
+        },
+        {
+          "name": "aegischain:ecosystem",
+          "value": "PyPI"
+        },
+        {
+          "name": "aegischain:scope",
+          "value": "runtime"
+        }
+      ],
+      "purl": "pkg:pypi/urllib3@2.2.1",
+      "scope": "required",
+      "type": "library",
+      "version": "2.2.1"
+    }
+  ],
+  "dependencies": [
+    {
+      "dependsOn": [
+        "pkg:pypi/fastapi@0.115.0",
+        "pkg:pypi/pytest@8.3.0",
+        "pkg:pypi/pyyaml@5.3",
+        "pkg:pypi/requests@2.32.0"
+      ],
+      "ref": "root:python-project"
+    },
+    {
+      "dependsOn": [
+        "pkg:pypi/idna@3.7"
+      ],
+      "ref": "pkg:pypi/anyio@4.4.0"
+    },
+    {
+      "dependsOn": [],
+      "ref": "pkg:pypi/certifi@2024.2.2"
+    },
+    {
+      "dependsOn": [],
+      "ref": "pkg:pypi/charset-normalizer@3.3.2"
+    },
+    {
+      "dependsOn": [
+        "pkg:pypi/pydantic@2.9.2",
+        "pkg:pypi/starlette@0.38.2"
+      ],
+      "ref": "pkg:pypi/fastapi@0.115.0"
+    },
+    {
+      "dependsOn": [],
+      "ref": "pkg:pypi/idna@3.7"
+    },
+    {
+      "dependsOn": [],
+      "ref": "pkg:pypi/iniconfig@2.0.0"
+    },
+    {
+      "dependsOn": [],
+      "ref": "pkg:pypi/pluggy@1.5.0"
+    },
+    {
+      "dependsOn": [],
+      "ref": "pkg:pypi/pydantic@2.9.2"
+    },
+    {
+      "dependsOn": [
+        "pkg:pypi/iniconfig@2.0.0",
+        "pkg:pypi/pluggy@1.5.0"
+      ],
+      "ref": "pkg:pypi/pytest@8.3.0"
+    },
+    {
+      "dependsOn": [],
+      "ref": "pkg:pypi/pyyaml@5.3"
+    },
+    {
+      "dependsOn": [
+        "pkg:pypi/certifi@2024.2.2",
+        "pkg:pypi/charset-normalizer@3.3.2",
+        "pkg:pypi/idna@3.7",
+        "pkg:pypi/urllib3@2.2.1"
+      ],
+      "ref": "pkg:pypi/requests@2.32.0"
+    },
+    {
+      "dependsOn": [
+        "pkg:pypi/anyio@4.4.0"
+      ],
+      "ref": "pkg:pypi/starlette@0.38.2"
+    },
+    {
+      "dependsOn": [],
+      "ref": "pkg:pypi/urllib3@2.2.1"
+    }
+  ],
+  "metadata": {
+    "component": {
+      "bom-ref": "root:python-project",
+      "name": "python-project",
+      "type": "application"
+    },
+    "timestamp": "2026-11-09T01:12:47Z",
+    "tools": {
+      "components": [
+        {
+          "name": "aegischain",
+          "type": "application",
+          "version": "0.1.0"
+        }
+      ]
+    }
+  },
+  "serialNumber": "urn:uuid:0e188eb0-de67-5d7f-9afa-08fd74327119",
+  "specVersion": "1.5",
+  "version": 1
+}
