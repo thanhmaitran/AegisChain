@@ -1,0 +1,634 @@
+{
+  "dependency": {
+    "components": [
+      {
+        "declared_license": null,
+        "dependencies": [
+          "pkg:pypi/idna@3.7"
+        ],
+        "depth": 3,
+        "direct": false,
+        "ecosystem": "PyPI",
+        "hashes": {
+          "sha256": "98779a454109c948a9795260c47af0c02bf95da691e941ea5fa1d64bd0a0cb11"
+        },
+        "name": "anyio",
+        "purl": "pkg:pypi/anyio@4.4.0",
+        "scope": "runtime",
+        "source_files": [
+          "poetry.lock"
+        ],
+        "version": "4.4.0"
+      },
+      {
+        "declared_license": null,
+        "dependencies": [],
+        "depth": 2,
+        "direct": false,
+        "ecosystem": "PyPI",
+        "hashes": {
+          "sha256": "e8ec0815b0cf871bd9c52d3bb3d77927aaf5c6bd1cc00faba4888a7ca395f68b"
+        },
+        "name": "certifi",
+        "purl": "pkg:pypi/certifi@2024.2.2",
+        "scope": "runtime",
+        "source_files": [
+          "poetry.lock"
+        ],
+        "version": "2024.2.2"
+      },
+      {
+        "declared_license": null,
+        "dependencies": [],
+        "depth": 2,
+        "direct": false,
+        "ecosystem": "PyPI",
+        "hashes": {
+          "sha256": "a425122e7db936a1f4054dba2d3a6b257cb523bd64bbc4d1946f26252b921583"
+        },
+        "name": "charset-normalizer",
+        "purl": "pkg:pypi/charset-normalizer@3.3.2",
+        "scope": "runtime",
+        "source_files": [
+          "poetry.lock"
+        ],
+        "version": "3.3.2"
+      },
+      {
+        "declared_license": null,
+        "dependencies": [
+          "pkg:pypi/pydantic@2.9.2",
+          "pkg:pypi/starlette@0.38.2"
+        ],
+        "depth": 1,
+        "direct": true,
+        "ecosystem": "PyPI",
+        "hashes": {
+          "sha256": "cb960e024424aa5fc413b8d4af88cf019c485d9e189c1305a628839d5d8321d9"
+        },
+        "name": "fastapi",
+        "purl": "pkg:pypi/fastapi@0.115.0",
+        "scope": "runtime",
+        "source_files": [
+          "poetry.lock"
+        ],
+        "version": "0.115.0"
+      },
+      {
+        "declared_license": null,
+        "dependencies": [],
+        "depth": 2,
+        "direct": false,
+        "ecosystem": "PyPI",
+        "hashes": {
+          "sha256": "0acce64fc5e058d3d1bd4a2a1fe30b150450cbbceb14da95ec9d5dcb7a93c0ef"
+        },
+        "name": "idna",
+        "purl": "pkg:pypi/idna@3.7",
+        "scope": "runtime",
+        "source_files": [
+          "poetry.lock"
+        ],
+        "version": "3.7"
+      },
+      {
+        "declared_license": null,
+        "dependencies": [],
+        "depth": 2,
+        "direct": false,
+        "ecosystem": "PyPI",
+        "hashes": {
+          "sha256": "5121f950610ff768d89cce5719dbe8045f33dc0f4a5e927abe920d753b825da2"
+        },
+        "name": "iniconfig",
+        "purl": "pkg:pypi/iniconfig@2.0.0",
+        "scope": "dev",
+        "source_files": [
+          "poetry.lock"
+        ],
+        "version": "2.0.0"
+      },
+      {
+        "declared_license": null,
+        "dependencies": [],
+        "depth": 2,
+        "direct": false,
+        "ecosystem": "PyPI",
+        "hashes": {
+          "sha256": "0473edf6b635d431ab26c5c58c18e16279f3a527b2ea55f79a4c62565b524af9"
+        },
+        "name": "pluggy",
+        "purl": "pkg:pypi/pluggy@1.5.0",
+        "scope": "dev",
+        "source_files": [
+          "poetry.lock"
+        ],
+        "version": "1.5.0"
+      },
+      {
+        "declared_license": null,
+        "dependencies": [],
+        "depth": 2,
+        "direct": false,
+        "ecosystem": "PyPI",
+        "hashes": {
+          "sha256": "843d457fd0a7cf769969f2e9f9b5060c043e8f4c848e22c958a06d4b46c4c163"
+        },
+        "name": "pydantic",
+        "purl": "pkg:pypi/pydantic@2.9.2",
+        "scope": "runtime",
+        "source_files": [
+          "poetry.lock"
+        ],
+        "version": "2.9.2"
+      },
+      {
+        "declared_license": null,
+        "dependencies": [
+          "pkg:pypi/iniconfig@2.0.0",
+          "pkg:pypi/pluggy@1.5.0"
+        ],
+        "depth": 1,
+        "direct": true,
+        "ecosystem": "PyPI",
+        "hashes": {
+          "sha256": "676ccc0df5029c359c5a02e47e37fae55114040e832084ef3fc67833473fda4b"
+        },
+        "name": "pytest",
+        "purl": "pkg:pypi/pytest@8.3.0",
+        "scope": "dev",
+        "source_files": [
+          "poetry.lock"
+        ],
+        "version": "8.3.0"
+      },
+      {
+        "declared_license": null,
+        "dependencies": [],
+        "depth": 1,
+        "direct": true,
+        "ecosystem": "PyPI",
+        "hashes": {
+          "sha256": "0f2461e363d55f78e02dda353bf10b42ad6696a680fcfff870f67809234b70bc"
+        },
+        "name": "pyyaml",
+        "purl": "pkg:pypi/pyyaml@5.3",
+        "scope": "runtime",
+        "source_files": [
+          "poetry.lock"
+        ],
+        "version": "5.3"
+      },
+      {
+        "declared_license": null,
+        "dependencies": [
+          "pkg:pypi/certifi@2024.2.2",
+          "pkg:pypi/charset-normalizer@3.3.2",
+          "pkg:pypi/idna@3.7",
+          "pkg:pypi/urllib3@2.2.1"
+        ],
+        "depth": 1,
+        "direct": true,
+        "ecosystem": "PyPI",
+        "hashes": {
+          "sha256": "0c4e5fb553ff75a6f53051321f0d726dde14bb4a9f90a8cbf30b3ff833d9b7ea"
+        },
+        "name": "requests",
+        "purl": "pkg:pypi/requests@2.32.0",
+        "scope": "runtime",
+        "source_files": [
+          "poetry.lock"
+        ],
+        "version": "2.32.0"
+      },
+      {
+        "declared_license": null,
+        "dependencies": [
+          "pkg:pypi/anyio@4.4.0"
+        ],
+        "depth": 2,
+        "direct": false,
+        "ecosystem": "PyPI",
+        "hashes": {
+          "sha256": "0f87a124ef5a68059a5c336ff7d67758c03840ea2c57dc5d6b74f00cfb1a5443"
+        },
+        "name": "starlette",
+        "purl": "pkg:pypi/starlette@0.38.2",
+        "scope": "runtime",
+        "source_files": [
+          "poetry.lock"
+        ],
+        "version": "0.38.2"
+      },
+      {
+        "declared_license": null,
+        "dependencies": [],
+        "depth": 2,
+        "direct": false,
+        "ecosystem": "PyPI",
+        "hashes": {
+          "sha256": "1981393796a73392623c90c6a71e2a1764f60bf89976430a7cecbe3a1c165f03"
+        },
+        "name": "urllib3",
+        "purl": "pkg:pypi/urllib3@2.2.1",
+        "scope": "runtime",
+        "source_files": [
+          "poetry.lock"
+        ],
+        "version": "2.2.1"
+      }
+    ],
+    "edges": [
+      [
+        "pkg:pypi/anyio@4.4.0",
+        "pkg:pypi/idna@3.7"
+      ],
+      [
+        "pkg:pypi/fastapi@0.115.0",
+        "pkg:pypi/pydantic@2.9.2"
+      ],
+      [
+        "pkg:pypi/fastapi@0.115.0",
+        "pkg:pypi/starlette@0.38.2"
+      ],
+      [
+        "pkg:pypi/pytest@8.3.0",
+        "pkg:pypi/iniconfig@2.0.0"
+      ],
+      [
+        "pkg:pypi/pytest@8.3.0",
+        "pkg:pypi/pluggy@1.5.0"
+      ],
+      [
+        "pkg:pypi/requests@2.32.0",
+        "pkg:pypi/certifi@2024.2.2"
+      ],
+      [
+        "pkg:pypi/requests@2.32.0",
+        "pkg:pypi/charset-normalizer@3.3.2"
+      ],
+      [
+        "pkg:pypi/requests@2.32.0",
+        "pkg:pypi/idna@3.7"
+      ],
+      [
+        "pkg:pypi/requests@2.32.0",
+        "pkg:pypi/urllib3@2.2.1"
+      ],
+      [
+        "pkg:pypi/starlette@0.38.2",
+        "pkg:pypi/anyio@4.4.0"
+      ]
+    ],
+    "findings": [
+      {
+        "code": "PARSER_NOTE",
+        "message": "poetry.lock: lockfile does not identify direct dependencies; they are taken from pyproject.toml when available",
+        "status": "PASS",
+        "subjects": [
+          "poetry.lock"
+        ]
+      }
+    ],
+    "parsed_files": [
+      "poetry.lock",
+      "pyproject.toml"
+    ],
+    "status": "PASS"
+  },
+  "errors": [],
+  "evidence_digest": "sha256:fe229dfdd6690661f50f339fe653fbc075a76a2821327d7a466d9c16dc51f115",
+  "generated_at": "2026-11-09T01:04:55+00:00",
+  "ingestion": {
+    "discovered_files": [
+      {
+        "ecosystem": "PyPI",
+        "filename": "poetry.lock",
+        "kind": "lockfile",
+        "path": "poetry.lock",
+        "sha256": "4253c8d642fc3388c533f6995465ceb5f70f2a3ab9802ae1440a7aafa40d9f24",
+        "size_bytes": 2923,
+        "supported": true
+      },
+      {
+        "ecosystem": "PyPI",
+        "filename": "pyproject.toml",
+        "kind": "manifest",
+        "path": "pyproject.toml",
+        "sha256": "e9022663191727a0c31f5f1e945b41790764e5a8be0f35a7f03534a3354459ac",
+        "size_bytes": 201,
+        "supported": true
+      }
+    ],
+    "errors": [],
+    "files_examined": 4,
+    "repository_id": "sha256:42f10d67ba0251b5031ac11416a2eab269c6d46a2d68c6ab373e8c38147e1329",
+    "root_name": "python-project",
+    "skipped_sensitive": [],
+    "status": "OK",
+    "supported_ecosystems": [
+      "PyPI"
+    ],
+    "unsupported_files": [],
+    "warnings": []
+  },
+  "integrity": null,
+  "licenses": [
+    {
+      "declared": null,
+      "normalized": null,
+      "purl": "pkg:pypi/anyio@4.4.0",
+      "reason": "No license declared in available metadata",
+      "status": "UNKNOWN"
+    },
+    {
+      "declared": null,
+      "normalized": null,
+      "purl": "pkg:pypi/certifi@2024.2.2",
+      "reason": "No license declared in available metadata",
+      "status": "UNKNOWN"
+    },
+    {
+      "declared": null,
+      "normalized": null,
+      "purl": "pkg:pypi/charset-normalizer@3.3.2",
+      "reason": "No license declared in available metadata",
+      "status": "UNKNOWN"
+    },
+    {
+      "declared": null,
+      "normalized": null,
+      "purl": "pkg:pypi/fastapi@0.115.0",
+      "reason": "No license declared in available metadata",
+      "status": "UNKNOWN"
+    },
+    {
+      "declared": null,
+      "normalized": null,
+      "purl": "pkg:pypi/idna@3.7",
+      "reason": "No license declared in available metadata",
+      "status": "UNKNOWN"
+    },
+    {
+      "declared": null,
+      "normalized": null,
+      "purl": "pkg:pypi/iniconfig@2.0.0",
+      "reason": "No license declared in available metadata",
+      "status": "UNKNOWN"
+    },
+    {
+      "declared": null,
+      "normalized": null,
+      "purl": "pkg:pypi/pluggy@1.5.0",
+      "reason": "No license declared in available metadata",
+      "status": "UNKNOWN"
+    },
+    {
+      "declared": null,
+      "normalized": null,
+      "purl": "pkg:pypi/pydantic@2.9.2",
+      "reason": "No license declared in available metadata",
+      "status": "UNKNOWN"
+    },
+    {
+      "declared": null,
+      "normalized": null,
+      "purl": "pkg:pypi/pytest@8.3.0",
+      "reason": "No license declared in available metadata",
+      "status": "UNKNOWN"
+    },
+    {
+      "declared": null,
+      "normalized": null,
+      "purl": "pkg:pypi/pyyaml@5.3",
+      "reason": "No license declared in available metadata",
+      "status": "UNKNOWN"
+    },
+    {
+      "declared": null,
+      "normalized": null,
+      "purl": "pkg:pypi/requests@2.32.0",
+      "reason": "No license declared in available metadata",
+      "status": "UNKNOWN"
+    },
+    {
+      "declared": null,
+      "normalized": null,
+      "purl": "pkg:pypi/starlette@0.38.2",
+      "reason": "No license declared in available metadata",
+      "status": "UNKNOWN"
+    },
+    {
+      "declared": null,
+      "normalized": null,
+      "purl": "pkg:pypi/urllib3@2.2.1",
+      "reason": "No license declared in available metadata",
+      "status": "UNKNOWN"
+    }
+  ],
+  "metrics": {
+    "dependency": 0.013141,
+    "ingestion": 0.008768,
+    "license": 2.5e-05,
+    "policy": 6.6e-05,
+    "sbom": 0.001408,
+    "vulnerability": 6e-05
+  },
+  "policy_evaluation": {
+    "as_of": "2026-11-09",
+    "engines": [
+      {
+        "engine": "Dependency Analysis",
+        "evaluated": true,
+        "rules": [
+          {
+            "engine": "Dependency Analysis",
+            "message": "13 component(s) resolved without issues",
+            "rule_id": "dep.ok",
+            "status": "PASS",
+            "subjects": []
+          }
+        ],
+        "status": "PASS"
+      },
+      {
+        "engine": "SBOM Validation",
+        "evaluated": true,
+        "rules": [
+          {
+            "engine": "SBOM Validation",
+            "message": "CycloneDX 1.5: structural validation passed",
+            "rule_id": "sbom.valid",
+            "status": "PASS",
+            "subjects": []
+          },
+          {
+            "engine": "SBOM Validation",
+            "message": "SPDX SPDX-2.3: structural validation passed",
+            "rule_id": "sbom.valid",
+            "status": "PASS",
+            "subjects": []
+          },
+          {
+            "engine": "SBOM Validation",
+            "message": "CycloneDX<->SPDX 1.5/SPDX-2.3: structural validation passed",
+            "rule_id": "sbom.valid",
+            "status": "PASS",
+            "subjects": []
+          }
+        ],
+        "status": "PASS"
+      },
+      {
+        "engine": "Vulnerability Analysis",
+        "evaluated": true,
+        "rules": [
+          {
+            "engine": "Vulnerability Analysis",
+            "message": "Vulnerability lookup skipped: Vulnerability lookup skipped (offline mode). This is NOT evidence that the dependencies are vulnerability-free.",
+            "rule_id": "vuln.lookup_unavailable",
+            "status": "INDETERMINATE",
+            "subjects": []
+          }
+        ],
+        "status": "INDETERMINATE"
+      },
+      {
+        "engine": "License Compliance",
+        "evaluated": true,
+        "rules": [
+          {
+            "engine": "License Compliance",
+            "message": "13 component(s) have a missing, invalid or custom license",
+            "rule_id": "license.unknown",
+            "status": "WARN",
+            "subjects": [
+              "pkg:pypi/anyio@4.4.0",
+              "pkg:pypi/certifi@2024.2.2",
+              "pkg:pypi/charset-normalizer@3.3.2",
+              "pkg:pypi/fastapi@0.115.0",
+              "pkg:pypi/idna@3.7",
+              "pkg:pypi/iniconfig@2.0.0",
+              "pkg:pypi/pluggy@1.5.0",
+              "pkg:pypi/pydantic@2.9.2",
+              "pkg:pypi/pytest@8.3.0",
+              "pkg:pypi/pyyaml@5.3",
+              "pkg:pypi/requests@2.32.0",
+              "pkg:pypi/starlette@0.38.2",
+              "pkg:pypi/urllib3@2.2.1"
+            ]
+          }
+        ],
+        "status": "WARN"
+      },
+      {
+        "engine": "Artifact Integrity",
+        "evaluated": false,
+        "rules": [
+          {
+            "engine": "Artifact Integrity",
+            "message": "No artifact supplied; integrity not required by policy",
+            "rule_id": "integrity.not_required",
+            "status": "PASS",
+            "subjects": []
+          }
+        ],
+        "status": "PASS"
+      },
+      {
+        "engine": "Provenance Verification",
+        "evaluated": false,
+        "rules": [
+          {
+            "engine": "Provenance Verification",
+            "message": "No provenance supplied; not required by policy",
+            "rule_id": "prov.not_required",
+            "status": "PASS",
+            "subjects": []
+          }
+        ],
+        "status": "PASS"
+      }
+    ],
+    "policy_name": "default",
+    "policy_version": "1",
+    "reasons": [
+      "[Vulnerability Analysis] Vulnerability lookup skipped: Vulnerability lookup skipped (offline mode). This is NOT evidence that the dependencies are vulnerability-free.",
+      "[License Compliance] 13 component(s) have a missing, invalid or custom license"
+    ],
+    "status": "INDETERMINATE"
+  },
+  "provenance": null,
+  "report_version": "1",
+  "repository_id": "sha256:42f10d67ba0251b5031ac11416a2eab269c6d46a2d68c6ab373e8c38147e1329",
+  "sbom_validation": [
+    {
+      "checks_performed": [
+        "required-fields",
+        "serial-number-format",
+        "unique-bom-ref",
+        "dependency-refs-exist",
+        "purl-prefix",
+        "hash-format"
+      ],
+      "errors": [],
+      "format": "CycloneDX",
+      "schema_validated": false,
+      "spec_version": "1.5",
+      "valid": true
+    },
+    {
+      "checks_performed": [
+        "required-fields",
+        "unique-spdxid",
+        "relationship-refs-exist",
+        "creation-info",
+        "purl-external-ref",
+        "document-describes"
+      ],
+      "errors": [],
+      "format": "SPDX",
+      "schema_validated": false,
+      "spec_version": "SPDX-2.3",
+      "valid": true
+    },
+    {
+      "checks_performed": [
+        "component-set-equal",
+        "dependency-edges-equal"
+      ],
+      "errors": [],
+      "format": "CycloneDX<->SPDX",
+      "schema_validated": false,
+      "spec_version": "1.5/SPDX-2.3",
+      "valid": true
+    }
+  ],
+  "tool_version": "0.1.0",
+  "vulnerability": {
+    "errors": [
+      "Vulnerability lookup skipped (offline mode)"
+    ],
+    "lookup_status": "SKIPPED",
+    "matches": [],
+    "queried_at": null,
+    "severity_counts": {},
+    "source": "OSV (https://api.osv.dev)",
+    "unscanned": [
+      "pkg:pypi/anyio@4.4.0",
+      "pkg:pypi/certifi@2024.2.2",
+      "pkg:pypi/charset-normalizer@3.3.2",
+      "pkg:pypi/fastapi@0.115.0",
+      "pkg:pypi/idna@3.7",
+      "pkg:pypi/iniconfig@2.0.0",
+      "pkg:pypi/pluggy@1.5.0",
+      "pkg:pypi/pydantic@2.9.2",
+      "pkg:pypi/pytest@8.3.0",
+      "pkg:pypi/pyyaml@5.3",
+      "pkg:pypi/requests@2.32.0",
+      "pkg:pypi/starlette@0.38.2",
+      "pkg:pypi/urllib3@2.2.1"
+    ],
+    "vulnerabilities": []
+  }
+}
