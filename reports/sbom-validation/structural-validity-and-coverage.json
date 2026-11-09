@@ -1,0 +1,33 @@
+{
+  "area": "sbom-validation",
+  "evaluation": "structural-validity-and-coverage",
+  "passed": 4,
+  "total": 4,
+  "cases": [
+    {
+      "dataset": "npm-10",
+      "valid": true,
+      "input_order_independent": true,
+      "component_coverage": true
+    },
+    {
+      "dataset": "npm-300",
+      "valid": true,
+      "input_order_independent": true,
+      "component_coverage": true
+    },
+    {
+      "dataset": "poetry-10",
+      "valid": true,
+      "input_order_independent": true,
+      "component_coverage": true
+    },
+    {
+      "dataset": "poetry-300",
+      "valid": true,
+      "input_order_independent": true,
+      "component_coverage": true
+    }
+  ],
+  "schema_validated": false
+}
