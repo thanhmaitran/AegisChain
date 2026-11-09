@@ -1,0 +1,2 @@
+[console_scripts]
+aegischain = aegischain.cli:main
