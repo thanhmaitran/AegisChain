@@ -1,0 +1,11 @@
+{
+  "name": "sample-node-app",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "4.18.2",
+    "lodash": "4.17.21"
+  },
+  "devDependencies": {
+    "mocha": "10.2.0"
+  }
+}
