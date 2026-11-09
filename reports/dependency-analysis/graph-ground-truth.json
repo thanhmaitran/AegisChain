@@ -1,0 +1,134 @@
+{
+  "area": "dependency-analysis",
+  "evaluation": "graph-ground-truth",
+  "passed": 6,
+  "total": 6,
+  "cases": [
+    {
+      "dataset": "npm-20-seed1",
+      "components": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "false_positives": 0,
+        "false_negatives": 0
+      },
+      "edges": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "false_positives": 0,
+        "false_negatives": 0
+      },
+      "direct": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "false_positives": 0,
+        "false_negatives": 0
+      }
+    },
+    {
+      "dataset": "npm-200-seed2",
+      "components": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "false_positives": 0,
+        "false_negatives": 0
+      },
+      "edges": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "false_positives": 0,
+        "false_negatives": 0
+      },
+      "direct": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "false_positives": 0,
+        "false_negatives": 0
+      }
+    },
+    {
+      "dataset": "npm-1000-seed3",
+      "components": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "false_positives": 0,
+        "false_negatives": 0
+      },
+      "edges": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "false_positives": 0,
+        "false_negatives": 0
+      },
+      "direct": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "false_positives": 0,
+        "false_negatives": 0
+      }
+    },
+    {
+      "dataset": "poetry-20-seed1",
+      "components": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "false_positives": 0,
+        "false_negatives": 0
+      },
+      "edges": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "false_positives": 0,
+        "false_negatives": 0
+      },
+      "direct": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "false_positives": 0,
+        "false_negatives": 0
+      }
+    },
+    {
+      "dataset": "poetry-200-seed2",
+      "components": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "false_positives": 0,
+        "false_negatives": 0
+      },
+      "edges": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "false_positives": 0,
+        "false_negatives": 0
+      },
+      "direct": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "false_positives": 0,
+        "false_negatives": 0
+      }
+    },
+    {
+      "dataset": "poetry-1000-seed3",
+      "components": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "false_positives": 0,
+        "false_negatives": 0
+      },
+      "edges": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "false_positives": 0,
+        "false_negatives": 0
+      },
+      "direct": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "false_positives": 0,
+        "false_negatives": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "area": "dependency-analysis",
+  "evaluation": "parser-fuzz-random-bytes",
+  "passed": 3000,
+  "total": 3000,
+  "clean_parse_errors": 2995,
+  "unhandled_exceptions": 0
+}
