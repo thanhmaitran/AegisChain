@@ -1,0 +1,46 @@
+site_name: AegisChain
+site_description: Software supply chain security and provenance platform
+repo_url: https://github.com/YOUR-ORG/aegischain
+theme:
+  name: material
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - tables
+nav:
+  - Home: index.md
+  - Architecture:
+      - System: architecture/system-architecture.md
+      - Components: architecture/component-architecture.md
+      - Data flow: architecture/data-flow.md
+      - Domain model: architecture/domain-model.md
+      - Dependency graph: architecture/dependency-graph-design.md
+      - Database: architecture/database-design.md
+  - Design decisions:
+      - ADR-0001 Modular architecture: design-decisions/ADR-0001-modular-architecture.md
+      - ADR-0002 Ecosystems: design-decisions/ADR-0002-supported-ecosystems.md
+      - ADR-0003 SBOM formats: design-decisions/ADR-0003-sbom-formats.md
+      - ADR-0004 Vulnerability provider: design-decisions/ADR-0004-vulnerability-provider.md
+      - ADR-0005 Provenance: design-decisions/ADR-0005-provenance-verification.md
+      - ADR-0006 Policy evaluation: design-decisions/ADR-0006-policy-evaluation.md
+      - ADR-0007 Core models: design-decisions/ADR-0007-stdlib-core-pydantic-boundary.md
+  - Security:
+      - Threat model: security/threat-model.md
+      - Boundaries: security/security-boundaries.md
+      - Trust model: security/trust-model.md
+      - Limitations: security/limitations.md
+  - Development:
+      - Setup: development/setup.md
+      - Coding standards: development/coding-standards.md
+      - Testing: development/testing.md
+      - Contributing: development/contributing.md
+  - Evaluation:
+      - Methodology: evaluation/evaluation-methodology.md
+      - Datasets: evaluation/datasets.md
+      - Benchmark results: evaluation/benchmark-results.md
+      - Correctness analysis: evaluation/correctness-analysis.md
+      - Limitations: evaluation/limitations.md
+  - API reference: api/api-reference.md

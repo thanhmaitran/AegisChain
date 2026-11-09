@@ -1,0 +1,43 @@
+# Usage: copy .env.example to .env, set the secrets, then `docker compose up --build`.
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: aegischain
+      POSTGRES_USER: aegischain
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in .env}
+    volumes: [pgdata:/var/lib/postgresql/data]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U aegischain"]
+      interval: 5s
+      retries: 10
+
+  migrate:
+    build: { context: ., dockerfile: docker/api.Dockerfile }
+    command: ["alembic", "-c", "database/alembic.ini", "upgrade", "head"]
+    environment:
+      AEGISCHAIN_DATABASE_URL: postgresql+psycopg://aegischain:${POSTGRES_PASSWORD}@postgres:5432/aegischain
+    depends_on: { postgres: { condition: service_healthy } }
+
+  api:
+    build: { context: ., dockerfile: docker/api.Dockerfile }
+    environment:
+      AEGISCHAIN_API_KEY: ${AEGISCHAIN_API_KEY:?set AEGISCHAIN_API_KEY in .env (>=16 chars)}
+      AEGISCHAIN_DATABASE_URL: postgresql+psycopg://aegischain:${POSTGRES_PASSWORD}@postgres:5432/aegischain
+      AEGISCHAIN_OFFLINE: ${AEGISCHAIN_OFFLINE:-false}
+    depends_on:
+      migrate: { condition: service_completed_successfully }
+    read_only: true
+    tmpfs: [/tmp]
+    volumes: [osvcache:/data]
+    cap_drop: [ALL]
+    security_opt: ["no-new-privileges:true"]
+
+  web:
+    build: { context: ., dockerfile: docker/web.Dockerfile }
+    ports: ["8080:8080"]
+    depends_on: [api]
+
+volumes:
+  pgdata:
+  osvcache:

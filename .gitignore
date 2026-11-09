@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+/dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.hypothesis/
+
+# Type checking and linting
+.mypy_cache/
+.ruff_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Environment variables (never commit secrets)
+.env
+.env.*
+!.env.example
+
+# Node.js (the web build output is generated, source files are not)
+node_modules/
+npm-debug.log*
+apps/web/dist/
+
+# Secrets and generated signing material
+*.sigstore.json
+*.pem
+*.key
+*.log
+
+# Local databases and caches
+*.sqlite
+*.db
+.osv-cache/
+
+# Analysis output
+/artifacts/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
