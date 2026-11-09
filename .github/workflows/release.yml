@@ -1,0 +1,46 @@
+name: Release
+
+on:
+  push:
+    tags: ["v*.*.*"]
+
+# Least privilege by default; elevated permissions are granted per job below.
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    outputs:
+      hashes: ${{ steps.hash.outputs.hashes }}
+    steps:
+      - uses: actions/checkout@v4
+        with: { persist-credentials: false }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: python -m pip install build && python -m build
+      - name: Generate AegisChain SBOMs
+        run: |
+          python -m pip install -e .
+          python -m aegischain analyze examples/python-project --offline --out sbom-example || true
+      - id: hash
+        run: echo "hashes=$(cd dist && sha256sum * | base64 -w0)" >> "$GITHUB_OUTPUT"
+      - uses: actions/upload-artifact@v4
+        with: { name: dist, path: dist/* }
+
+  attest-and-publish:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write        # create the GitHub release
+      id-token: write        # Sigstore keyless signing (OIDC) - ONLY in this job
+      attestations: write    # store the build provenance attestation
+    steps:
+      - uses: actions/download-artifact@v4
+        with: { name: dist, path: dist }
+      - name: Attest build provenance (SLSA, Sigstore keyless)
+        uses: actions/attest-build-provenance@v2
+        with: { subject-path: "dist/*" }
+      - name: Publish release
+        env: { GH_TOKEN: "${{ secrets.GITHUB_TOKEN }}" }
+        run: gh release create "${{ github.ref_name }}" dist/* --repo "${{ github.repository }}" --generate-notes

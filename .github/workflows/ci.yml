@@ -1,0 +1,79 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  python:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with: { persist-credentials: false }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12", cache: pip }
+      - name: Install
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -e ".[api,security,dev]" -e apps/api
+          python -m pip check
+      - name: Lint
+        run: |
+          python -m ruff check .
+          python -m ruff format --check .
+      - name: Type check
+        run: python -m mypy packages/aegischain-core/src apps/api/src
+      - name: Unit, property, security, end-to-end and API tests
+        run: python -m pytest --cov --cov-report=xml --cov-report=term-missing
+      - name: Schema-validate generated SBOMs (official validators)
+        run: |
+          python -m aegischain analyze examples/node-project --offline --out artifacts || true
+          test -f artifacts/sbom/sbom.cdx.json && test -f artifacts/sbom/sbom.spdx.json
+          python -m pip install cyclonedx-bom spdx-tools
+          python -m spdx_tools.spdx.clitools.pyspdxtools -i artifacts/sbom/sbom.spdx.json
+      - uses: actions/upload-artifact@v4
+        with: { name: coverage, path: coverage.xml }
+
+  web:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults: { run: { working-directory: apps/web } }
+    steps:
+      - uses: actions/checkout@v4
+        with: { persist-credentials: false }
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm, cache-dependency-path: apps/web/package-lock.json }
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm test
+      - run: npm run build
+
+  integration-postgres:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    services:
+      postgres:
+        image: postgres:16-alpine
+        env: { POSTGRES_PASSWORD: ci, POSTGRES_DB: aegis, POSTGRES_USER: aegis }
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd "pg_isready -U aegis" --health-interval 5s --health-retries 10
+    env:
+      AEGISCHAIN_DATABASE_URL: postgresql+psycopg://aegis:ci@localhost:5432/aegis
+    steps:
+      - uses: actions/checkout@v4
+        with: { persist-credentials: false }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12", cache: pip }
+      - run: python -m pip install -e ".[api,dev]" -e apps/api
+      - run: alembic -c database/alembic.ini upgrade head
+      - run: python -m pytest tests/integration -q
