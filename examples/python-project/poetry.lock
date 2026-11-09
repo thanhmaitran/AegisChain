@@ -1,0 +1,138 @@
+# This file is a synthetic fixture. Hashes are illustrative.
+
+[[package]]
+name = "requests"
+version = "2.32.0"
+groups = ["main"]
+files = [
+    {file = "requests-2.32.0.tar.gz", hash = "sha256:0c4e5fb553ff75a6f53051321f0d726dde14bb4a9f90a8cbf30b3ff833d9b7ea"},
+]
+
+[package.dependencies]
+urllib3 = "*"
+certifi = "*"
+charset-normalizer = "*"
+idna = "*"
+
+
+[[package]]
+name = "urllib3"
+version = "2.2.1"
+groups = ["main"]
+files = [
+    {file = "urllib3-2.2.1.tar.gz", hash = "sha256:1981393796a73392623c90c6a71e2a1764f60bf89976430a7cecbe3a1c165f03"},
+]
+
+
+[[package]]
+name = "certifi"
+version = "2024.2.2"
+groups = ["main"]
+files = [
+    {file = "certifi-2024.2.2.tar.gz", hash = "sha256:e8ec0815b0cf871bd9c52d3bb3d77927aaf5c6bd1cc00faba4888a7ca395f68b"},
+]
+
+
+[[package]]
+name = "charset-normalizer"
+version = "3.3.2"
+groups = ["main"]
+files = [
+    {file = "charset-normalizer-3.3.2.tar.gz", hash = "sha256:a425122e7db936a1f4054dba2d3a6b257cb523bd64bbc4d1946f26252b921583"},
+]
+
+
+[[package]]
+name = "idna"
+version = "3.7"
+groups = ["main"]
+files = [
+    {file = "idna-3.7.tar.gz", hash = "sha256:0acce64fc5e058d3d1bd4a2a1fe30b150450cbbceb14da95ec9d5dcb7a93c0ef"},
+]
+
+
+[[package]]
+name = "fastapi"
+version = "0.115.0"
+groups = ["main"]
+files = [
+    {file = "fastapi-0.115.0.tar.gz", hash = "sha256:cb960e024424aa5fc413b8d4af88cf019c485d9e189c1305a628839d5d8321d9"},
+]
+
+[package.dependencies]
+starlette = "*"
+pydantic = "*"
+
+
+[[package]]
+name = "starlette"
+version = "0.38.2"
+groups = ["main"]
+files = [
+    {file = "starlette-0.38.2.tar.gz", hash = "sha256:0f87a124ef5a68059a5c336ff7d67758c03840ea2c57dc5d6b74f00cfb1a5443"},
+]
+
+[package.dependencies]
+anyio = "*"
+
+
+[[package]]
+name = "pydantic"
+version = "2.9.2"
+groups = ["main"]
+files = [
+    {file = "pydantic-2.9.2.tar.gz", hash = "sha256:843d457fd0a7cf769969f2e9f9b5060c043e8f4c848e22c958a06d4b46c4c163"},
+]
+
+
+[[package]]
+name = "anyio"
+version = "4.4.0"
+groups = ["main"]
+files = [
+    {file = "anyio-4.4.0.tar.gz", hash = "sha256:98779a454109c948a9795260c47af0c02bf95da691e941ea5fa1d64bd0a0cb11"},
+]
+
+[package.dependencies]
+idna = "*"
+
+
+[[package]]
+name = "pyyaml"
+version = "5.3"
+groups = ["main"]
+files = [
+    {file = "pyyaml-5.3.tar.gz", hash = "sha256:0f2461e363d55f78e02dda353bf10b42ad6696a680fcfff870f67809234b70bc"},
+]
+
+
+[[package]]
+name = "pytest"
+version = "8.3.0"
+groups = ["dev"]
+files = [
+    {file = "pytest-8.3.0.tar.gz", hash = "sha256:676ccc0df5029c359c5a02e47e37fae55114040e832084ef3fc67833473fda4b"},
+]
+
+[package.dependencies]
+pluggy = "*"
+iniconfig = "*"
+
+
+[[package]]
+name = "pluggy"
+version = "1.5.0"
+groups = ["dev"]
+files = [
+    {file = "pluggy-1.5.0.tar.gz", hash = "sha256:0473edf6b635d431ab26c5c58c18e16279f3a527b2ea55f79a4c62565b524af9"},
+]
+
+
+[[package]]
+name = "iniconfig"
+version = "2.0.0"
+groups = ["dev"]
+files = [
+    {file = "iniconfig-2.0.0.tar.gz", hash = "sha256:5121f950610ff768d89cce5719dbe8045f33dc0f4a5e927abe920d753b825da2"},
+]
+
