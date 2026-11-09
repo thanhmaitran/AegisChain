@@ -1,0 +1,58 @@
+{
+  "area": "policy-evaluation",
+  "evaluation": "decision-table",
+  "passed": 10,
+  "total": 10,
+  "cases": [
+    {
+      "case": "critical blocks",
+      "expected": "FAIL",
+      "got": "FAIL"
+    },
+    {
+      "case": "high warns",
+      "expected": "WARN",
+      "got": "WARN"
+    },
+    {
+      "case": "low passes",
+      "expected": "PASS",
+      "got": "PASS"
+    },
+    {
+      "case": "no severity -> warn",
+      "expected": "WARN",
+      "got": "WARN"
+    },
+    {
+      "case": "unfixed high fails",
+      "expected": "FAIL",
+      "got": "FAIL"
+    },
+    {
+      "case": "fixed high passes",
+      "expected": "PASS",
+      "got": "PASS"
+    },
+    {
+      "case": "active waiver",
+      "expected": "PASS",
+      "got": "PASS"
+    },
+    {
+      "case": "expired waiver",
+      "expected": "FAIL",
+      "got": "FAIL"
+    },
+    {
+      "case": "no vulns",
+      "expected": "PASS",
+      "got": "PASS"
+    },
+    {
+      "case": "offline never passes",
+      "expected": "INDETERMINATE",
+      "got": "INDETERMINATE"
+    }
+  ]
+}
