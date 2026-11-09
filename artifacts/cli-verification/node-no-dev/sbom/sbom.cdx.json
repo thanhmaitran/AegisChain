@@ -1,0 +1,263 @@
+{
+  "bomFormat": "CycloneDX",
+  "components": [
+    {
+      "bom-ref": "pkg:npm/accepts@1.3.8",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "55d2db67459d4a19171d2377c58fa22e5da4f10e6be133be605a07191cc84bf79ab8e1c5d57c8ce916cb4f91d85408d892cb63bc2f6ce40a52a514b30c2f02ff"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "accepts",
+      "properties": [
+        {
+          "name": "aegischain:direct",
+          "value": "false"
+        },
+        {
+          "name": "aegischain:ecosystem",
+          "value": "npm"
+        },
+        {
+          "name": "aegischain:scope",
+          "value": "runtime"
+        }
+      ],
+      "purl": "pkg:npm/accepts@1.3.8",
+      "scope": "required",
+      "type": "library",
+      "version": "1.3.8"
+    },
+    {
+      "bom-ref": "pkg:npm/debug@2.6.9",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "b4d2a28c50f7976313b914b783900e755d1b8bda9114aa9a39e179517cfb15d27efac86a8a4016dd434b7f31cbbe90658a9038280a85954016ee5f1dc7248adb"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "debug",
+      "properties": [
+        {
+          "name": "aegischain:direct",
+          "value": "false"
+        },
+        {
+          "name": "aegischain:ecosystem",
+          "value": "npm"
+        },
+        {
+          "name": "aegischain:scope",
+          "value": "runtime"
+        }
+      ],
+      "purl": "pkg:npm/debug@2.6.9",
+      "scope": "required",
+      "type": "library",
+      "version": "2.6.9"
+    },
+    {
+      "bom-ref": "pkg:npm/express@4.18.2",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "0cadc7020b142d22456f49df7433a8b1ca3c0a33aaac09e1cad16393ec064a5b33a816141f2677bcaded329bc493a629fa57bf8608afa9d63e8c11d2a56ebe71"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "express",
+      "properties": [
+        {
+          "name": "aegischain:direct",
+          "value": "true"
+        },
+        {
+          "name": "aegischain:ecosystem",
+          "value": "npm"
+        },
+        {
+          "name": "aegischain:scope",
+          "value": "runtime"
+        }
+      ],
+      "purl": "pkg:npm/express@4.18.2",
+      "scope": "required",
+      "type": "library",
+      "version": "4.18.2"
+    },
+    {
+      "bom-ref": "pkg:npm/lodash@4.17.21",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "7854bb64e7dbe558d1eed0689a1373e5983373b2ec24b47923ca5f11898fa94b9d0dfd504708015c8970f8b83be24e9c0b422a19d62db896ece0ecdfb911460d"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "lodash",
+      "properties": [
+        {
+          "name": "aegischain:direct",
+          "value": "true"
+        },
+        {
+          "name": "aegischain:ecosystem",
+          "value": "npm"
+        },
+        {
+          "name": "aegischain:scope",
+          "value": "runtime"
+        }
+      ],
+      "purl": "pkg:npm/lodash@4.17.21",
+      "scope": "required",
+      "type": "library",
+      "version": "4.17.21"
+    },
+    {
+      "bom-ref": "pkg:npm/ms@2.0.0",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "489cef6455ca660d286c5dda96b74ad68e79c28f3d9bc5f57aa021ce786de18efe307413fcd2b5e6d797ebdc8a2b3c80783c78bfc022ac4b3ba734e282524a41"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "ms",
+      "properties": [
+        {
+          "name": "aegischain:direct",
+          "value": "false"
+        },
+        {
+          "name": "aegischain:ecosystem",
+          "value": "npm"
+        },
+        {
+          "name": "aegischain:scope",
+          "value": "runtime"
+        }
+      ],
+      "purl": "pkg:npm/ms@2.0.0",
+      "scope": "required",
+      "type": "library",
+      "version": "2.0.0"
+    },
+    {
+      "bom-ref": "pkg:npm/negotiator@0.6.3",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "7c413e400a0820f82b04c7361b0caee70a29f62d66edc17c780ad2a3cd166ba833fd0f93f10d340611e4f198d10ea0d6b0e85678c6f713506ae6f50a2157163b"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "negotiator",
+      "properties": [
+        {
+          "name": "aegischain:direct",
+          "value": "false"
+        },
+        {
+          "name": "aegischain:ecosystem",
+          "value": "npm"
+        },
+        {
+          "name": "aegischain:scope",
+          "value": "runtime"
+        }
+      ],
+      "purl": "pkg:npm/negotiator@0.6.3",
+      "scope": "required",
+      "type": "library",
+      "version": "0.6.3"
+    }
+  ],
+  "dependencies": [
+    {
+      "dependsOn": [
+        "pkg:npm/express@4.18.2",
+        "pkg:npm/lodash@4.17.21"
+      ],
+      "ref": "root:node-project"
+    },
+    {
+      "dependsOn": [
+        "pkg:npm/negotiator@0.6.3"
+      ],
+      "ref": "pkg:npm/accepts@1.3.8"
+    },
+    {
+      "dependsOn": [
+        "pkg:npm/ms@2.0.0"
+      ],
+      "ref": "pkg:npm/debug@2.6.9"
+    },
+    {
+      "dependsOn": [
+        "pkg:npm/accepts@1.3.8",
+        "pkg:npm/debug@2.6.9"
+      ],
+      "ref": "pkg:npm/express@4.18.2"
+    },
+    {
+      "dependsOn": [],
+      "ref": "pkg:npm/lodash@4.17.21"
+    },
+    {
+      "dependsOn": [],
+      "ref": "pkg:npm/ms@2.0.0"
+    },
+    {
+      "dependsOn": [],
+      "ref": "pkg:npm/negotiator@0.6.3"
+    }
+  ],
+  "metadata": {
+    "component": {
+      "bom-ref": "root:node-project",
+      "name": "node-project",
+      "type": "application"
+    },
+    "timestamp": "2026-11-09T01:09:05Z",
+    "tools": {
+      "components": [
+        {
+          "name": "aegischain",
+          "type": "application",
+          "version": "0.1.0"
+        }
+      ]
+    }
+  },
+  "serialNumber": "urn:uuid:85d3c210-b9c7-537c-a628-e1b5548fae58",
+  "specVersion": "1.5",
+  "version": 1
+}
