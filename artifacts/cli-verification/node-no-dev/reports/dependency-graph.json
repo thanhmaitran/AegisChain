@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "source": "pkg:npm/accepts@1.3.8",
+      "target": "pkg:npm/negotiator@0.6.3"
+    },
+    {
+      "source": "pkg:npm/debug@2.6.9",
+      "target": "pkg:npm/ms@2.0.0"
+    },
+    {
+      "source": "pkg:npm/express@4.18.2",
+      "target": "pkg:npm/accepts@1.3.8"
+    },
+    {
+      "source": "pkg:npm/express@4.18.2",
+      "target": "pkg:npm/debug@2.6.9"
+    }
+  ],
+  "nodes": [
+    {
+      "depth": 2,
+      "direct": false,
+      "ecosystem": "npm",
+      "id": "pkg:npm/accepts@1.3.8",
+      "name": "accepts",
+      "scope": "runtime",
+      "version": "1.3.8"
+    },
+    {
+      "depth": 2,
+      "direct": false,
+      "ecosystem": "npm",
+      "id": "pkg:npm/debug@2.6.9",
+      "name": "debug",
+      "scope": "runtime",
+      "version": "2.6.9"
+    },
+    {
+      "depth": 1,
+      "direct": true,
+      "ecosystem": "npm",
+      "id": "pkg:npm/express@4.18.2",
+      "name": "express",
+      "scope": "runtime",
+      "version": "4.18.2"
+    },
+    {
+      "depth": 1,
+      "direct": true,
+      "ecosystem": "npm",
+      "id": "pkg:npm/lodash@4.17.21",
+      "name": "lodash",
+      "scope": "runtime",
+      "version": "4.17.21"
+    },
+    {
+      "depth": 3,
+      "direct": false,
+      "ecosystem": "npm",
+      "id": "pkg:npm/ms@2.0.0",
+      "name": "ms",
+      "scope": "runtime",
+      "version": "2.0.0"
+    },
+    {
+      "depth": 3,
+      "direct": false,
+      "ecosystem": "npm",
+      "id": "pkg:npm/negotiator@0.6.3",
+      "name": "negotiator",
+      "scope": "runtime",
+      "version": "0.6.3"
+    }
+  ]
+}
