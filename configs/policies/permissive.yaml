@@ -1,0 +1,10 @@
+# Informational policy for exploration: blocks nothing except structural failures.
+policy:
+  name: permissive
+  version: "1.0"
+  vulnerabilities:
+    block_on: []
+    warn_on: [CRITICAL, HIGH]
+    on_unscanned: WARN
+  licenses:
+    unknown_license: PASS

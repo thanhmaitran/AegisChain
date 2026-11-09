@@ -1,0 +1,9 @@
+# Baseline policy: blocks CRITICAL vulnerabilities, warns on HIGH.
+policy:
+  name: default
+  version: "1.0"
+  vulnerabilities:
+    block_on: [CRITICAL]
+    warn_on: [HIGH]
+  licenses:
+    unknown_license: WARN

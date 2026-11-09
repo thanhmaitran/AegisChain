@@ -1,0 +1,36 @@
+# Strict policy for release gates. Every requirement here fails closed:
+# missing evidence yields INDETERMINATE, which also blocks a release.
+policy:
+  name: production-release-policy
+  version: "1.0"
+
+  dependencies:
+    require_lockfile: true
+
+  vulnerabilities:
+    block_on: [CRITICAL, HIGH]
+    warn_on: [MEDIUM]
+    fail_on_unfixed: true
+    unfixed_min_severity: MEDIUM
+    on_unscanned: INDETERMINATE
+    waivers: []
+    # - id: GHSA-xxxx-xxxx-xxxx      # OSV id or alias
+    #   justification: "Not reachable; tracked in SEC-123"
+    #   expires: 2026-12-31          # waivers MUST expire
+
+  licenses:
+    denied: ["GPL-3.0-*", "AGPL-*"]
+    unknown_license: WARN
+
+  provenance:
+    require_provenance: true
+    require_verified_signature: true
+    trusted_builders:
+      - "https://github.com/slsa-framework/slsa-github-generator/.github/workflows/*"
+    trusted_sources:
+      - "https://github.com/YOUR-ORG/YOUR-REPO"
+    signer_identity: "https://github.com/YOUR-ORG/YOUR-REPO/.github/workflows/release.yml@refs/tags/*"
+    oidc_issuer: "https://token.actions.githubusercontent.com"
+
+  integrity:
+    require_sha256: true
