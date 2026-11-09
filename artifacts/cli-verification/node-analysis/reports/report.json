@@ -1,0 +1,507 @@
+{
+  "dependency": {
+    "components": [
+      {
+        "declared_license": "MIT",
+        "dependencies": [
+          "pkg:npm/negotiator@0.6.3"
+        ],
+        "depth": 2,
+        "direct": false,
+        "ecosystem": "npm",
+        "hashes": {
+          "sha512": "55d2db67459d4a19171d2377c58fa22e5da4f10e6be133be605a07191cc84bf79ab8e1c5d57c8ce916cb4f91d85408d892cb63bc2f6ce40a52a514b30c2f02ff"
+        },
+        "name": "accepts",
+        "purl": "pkg:npm/accepts@1.3.8",
+        "scope": "runtime",
+        "source_files": [
+          "package-lock.json"
+        ],
+        "version": "1.3.8"
+      },
+      {
+        "declared_license": "MIT",
+        "dependencies": [
+          "pkg:npm/ms@2.0.0"
+        ],
+        "depth": 2,
+        "direct": false,
+        "ecosystem": "npm",
+        "hashes": {
+          "sha512": "b4d2a28c50f7976313b914b783900e755d1b8bda9114aa9a39e179517cfb15d27efac86a8a4016dd434b7f31cbbe90658a9038280a85954016ee5f1dc7248adb"
+        },
+        "name": "debug",
+        "purl": "pkg:npm/debug@2.6.9",
+        "scope": "runtime",
+        "source_files": [
+          "package-lock.json"
+        ],
+        "version": "2.6.9"
+      },
+      {
+        "declared_license": "MIT",
+        "dependencies": [
+          "pkg:npm/ms@2.1.2"
+        ],
+        "depth": 2,
+        "direct": false,
+        "ecosystem": "npm",
+        "hashes": {
+          "sha512": "c08b3208d2db87eb37c6b928ce6e022fae189a9e5a717f140a05f9a7d11dbe9c5aa918eb78ed10c0a7cbe0e121c72e34c4e92e69891c0be31ed62731d928ae5d"
+        },
+        "name": "debug",
+        "purl": "pkg:npm/debug@4.3.4",
+        "scope": "dev",
+        "source_files": [
+          "package-lock.json"
+        ],
+        "version": "4.3.4"
+      },
+      {
+        "declared_license": "MIT",
+        "dependencies": [
+          "pkg:npm/accepts@1.3.8",
+          "pkg:npm/debug@2.6.9"
+        ],
+        "depth": 1,
+        "direct": true,
+        "ecosystem": "npm",
+        "hashes": {
+          "sha512": "0cadc7020b142d22456f49df7433a8b1ca3c0a33aaac09e1cad16393ec064a5b33a816141f2677bcaded329bc493a629fa57bf8608afa9d63e8c11d2a56ebe71"
+        },
+        "name": "express",
+        "purl": "pkg:npm/express@4.18.2",
+        "scope": "runtime",
+        "source_files": [
+          "package-lock.json"
+        ],
+        "version": "4.18.2"
+      },
+      {
+        "declared_license": "MIT",
+        "dependencies": [],
+        "depth": 1,
+        "direct": true,
+        "ecosystem": "npm",
+        "hashes": {
+          "sha512": "7854bb64e7dbe558d1eed0689a1373e5983373b2ec24b47923ca5f11898fa94b9d0dfd504708015c8970f8b83be24e9c0b422a19d62db896ece0ecdfb911460d"
+        },
+        "name": "lodash",
+        "purl": "pkg:npm/lodash@4.17.21",
+        "scope": "runtime",
+        "source_files": [
+          "package-lock.json"
+        ],
+        "version": "4.17.21"
+      },
+      {
+        "declared_license": "MIT",
+        "dependencies": [
+          "pkg:npm/debug@4.3.4"
+        ],
+        "depth": 1,
+        "direct": true,
+        "ecosystem": "npm",
+        "hashes": {
+          "sha512": "86955e311f1623ab598e54944f8285c1ba6c03c06c874922101da2e4a2d6047f8508c5f996756001276ae78feaba61bb55447faf18ec6d3abe73fd14d4267e67"
+        },
+        "name": "mocha",
+        "purl": "pkg:npm/mocha@10.2.0",
+        "scope": "dev",
+        "source_files": [
+          "package-lock.json"
+        ],
+        "version": "10.2.0"
+      },
+      {
+        "declared_license": "MIT",
+        "dependencies": [],
+        "depth": 3,
+        "direct": false,
+        "ecosystem": "npm",
+        "hashes": {
+          "sha512": "489cef6455ca660d286c5dda96b74ad68e79c28f3d9bc5f57aa021ce786de18efe307413fcd2b5e6d797ebdc8a2b3c80783c78bfc022ac4b3ba734e282524a41"
+        },
+        "name": "ms",
+        "purl": "pkg:npm/ms@2.0.0",
+        "scope": "runtime",
+        "source_files": [
+          "package-lock.json"
+        ],
+        "version": "2.0.0"
+      },
+      {
+        "declared_license": "MIT",
+        "dependencies": [],
+        "depth": 3,
+        "direct": false,
+        "ecosystem": "npm",
+        "hashes": {
+          "sha512": "5e2d93c02248f683c1912b0a8c15f3defc1e2777fb98687fa4248e7cbab4aeac2049a44f081a00a1a178dab948af8954d5391ff6d281cf40e92db4eeaaf98d31"
+        },
+        "name": "ms",
+        "purl": "pkg:npm/ms@2.1.2",
+        "scope": "dev",
+        "source_files": [
+          "package-lock.json"
+        ],
+        "version": "2.1.2"
+      },
+      {
+        "declared_license": "MIT",
+        "dependencies": [],
+        "depth": 3,
+        "direct": false,
+        "ecosystem": "npm",
+        "hashes": {
+          "sha512": "7c413e400a0820f82b04c7361b0caee70a29f62d66edc17c780ad2a3cd166ba833fd0f93f10d340611e4f198d10ea0d6b0e85678c6f713506ae6f50a2157163b"
+        },
+        "name": "negotiator",
+        "purl": "pkg:npm/negotiator@0.6.3",
+        "scope": "runtime",
+        "source_files": [
+          "package-lock.json"
+        ],
+        "version": "0.6.3"
+      }
+    ],
+    "edges": [
+      [
+        "pkg:npm/accepts@1.3.8",
+        "pkg:npm/negotiator@0.6.3"
+      ],
+      [
+        "pkg:npm/debug@2.6.9",
+        "pkg:npm/ms@2.0.0"
+      ],
+      [
+        "pkg:npm/debug@4.3.4",
+        "pkg:npm/ms@2.1.2"
+      ],
+      [
+        "pkg:npm/express@4.18.2",
+        "pkg:npm/accepts@1.3.8"
+      ],
+      [
+        "pkg:npm/express@4.18.2",
+        "pkg:npm/debug@2.6.9"
+      ],
+      [
+        "pkg:npm/mocha@10.2.0",
+        "pkg:npm/debug@4.3.4"
+      ]
+    ],
+    "findings": [
+      {
+        "code": "DUPLICATE_VERSIONS",
+        "message": "debug is present in multiple versions (allowed by npm): 2.6.9, 4.3.4",
+        "status": "PASS",
+        "subjects": [
+          "debug"
+        ]
+      },
+      {
+        "code": "DUPLICATE_VERSIONS",
+        "message": "ms is present in multiple versions (allowed by npm): 2.0.0, 2.1.2",
+        "status": "PASS",
+        "subjects": [
+          "ms"
+        ]
+      }
+    ],
+    "parsed_files": [
+      "package-lock.json",
+      "package.json"
+    ],
+    "status": "PASS"
+  },
+  "errors": [],
+  "evidence_digest": "sha256:e01809178129099daa9ccc4b35c593c47c3bea344c375d83b70c52bd323f6a54",
+  "generated_at": "2026-11-09T01:05:03+00:00",
+  "ingestion": {
+    "discovered_files": [
+      {
+        "ecosystem": "npm",
+        "filename": "package-lock.json",
+        "kind": "lockfile",
+        "path": "package-lock.json",
+        "sha256": "cc5bf24b7324ee4d927975d619d61e1af9edd75f163ee088ae8a20fcfaac9f85",
+        "size_bytes": 3244,
+        "supported": true
+      },
+      {
+        "ecosystem": "npm",
+        "filename": "package.json",
+        "kind": "manifest",
+        "path": "package.json",
+        "sha256": "ae045f2881081a1d35260251cde162c4b8a2fa77cb9559d397920a8166b6f3a4",
+        "size_bytes": 178,
+        "supported": true
+      }
+    ],
+    "errors": [],
+    "files_examined": 3,
+    "repository_id": "sha256:eb727d997e84f9988351498178cedbaeee7ba1ea213d10d7155109a345a0ae24",
+    "root_name": "node-project",
+    "skipped_sensitive": [],
+    "status": "OK",
+    "supported_ecosystems": [
+      "npm"
+    ],
+    "unsupported_files": [],
+    "warnings": []
+  },
+  "integrity": null,
+  "licenses": [
+    {
+      "declared": "MIT",
+      "normalized": "MIT",
+      "purl": "pkg:npm/accepts@1.3.8",
+      "reason": "MIT is permitted",
+      "status": "ALLOWED"
+    },
+    {
+      "declared": "MIT",
+      "normalized": "MIT",
+      "purl": "pkg:npm/debug@2.6.9",
+      "reason": "MIT is permitted",
+      "status": "ALLOWED"
+    },
+    {
+      "declared": "MIT",
+      "normalized": "MIT",
+      "purl": "pkg:npm/debug@4.3.4",
+      "reason": "MIT is permitted",
+      "status": "ALLOWED"
+    },
+    {
+      "declared": "MIT",
+      "normalized": "MIT",
+      "purl": "pkg:npm/express@4.18.2",
+      "reason": "MIT is permitted",
+      "status": "ALLOWED"
+    },
+    {
+      "declared": "MIT",
+      "normalized": "MIT",
+      "purl": "pkg:npm/lodash@4.17.21",
+      "reason": "MIT is permitted",
+      "status": "ALLOWED"
+    },
+    {
+      "declared": "MIT",
+      "normalized": "MIT",
+      "purl": "pkg:npm/mocha@10.2.0",
+      "reason": "MIT is permitted",
+      "status": "ALLOWED"
+    },
+    {
+      "declared": "MIT",
+      "normalized": "MIT",
+      "purl": "pkg:npm/ms@2.0.0",
+      "reason": "MIT is permitted",
+      "status": "ALLOWED"
+    },
+    {
+      "declared": "MIT",
+      "normalized": "MIT",
+      "purl": "pkg:npm/ms@2.1.2",
+      "reason": "MIT is permitted",
+      "status": "ALLOWED"
+    },
+    {
+      "declared": "MIT",
+      "normalized": "MIT",
+      "purl": "pkg:npm/negotiator@0.6.3",
+      "reason": "MIT is permitted",
+      "status": "ALLOWED"
+    }
+  ],
+  "metrics": {
+    "dependency": 0.009621,
+    "ingestion": 0.011122,
+    "license": 6.8e-05,
+    "policy": 6.2e-05,
+    "sbom": 0.000994,
+    "vulnerability": 6.1e-05
+  },
+  "policy_evaluation": {
+    "as_of": "2026-11-09",
+    "engines": [
+      {
+        "engine": "Dependency Analysis",
+        "evaluated": true,
+        "rules": [
+          {
+            "engine": "Dependency Analysis",
+            "message": "9 component(s) resolved without issues",
+            "rule_id": "dep.ok",
+            "status": "PASS",
+            "subjects": []
+          }
+        ],
+        "status": "PASS"
+      },
+      {
+        "engine": "SBOM Validation",
+        "evaluated": true,
+        "rules": [
+          {
+            "engine": "SBOM Validation",
+            "message": "CycloneDX 1.5: structural validation passed",
+            "rule_id": "sbom.valid",
+            "status": "PASS",
+            "subjects": []
+          },
+          {
+            "engine": "SBOM Validation",
+            "message": "SPDX SPDX-2.3: structural validation passed",
+            "rule_id": "sbom.valid",
+            "status": "PASS",
+            "subjects": []
+          },
+          {
+            "engine": "SBOM Validation",
+            "message": "CycloneDX<->SPDX 1.5/SPDX-2.3: structural validation passed",
+            "rule_id": "sbom.valid",
+            "status": "PASS",
+            "subjects": []
+          }
+        ],
+        "status": "PASS"
+      },
+      {
+        "engine": "Vulnerability Analysis",
+        "evaluated": true,
+        "rules": [
+          {
+            "engine": "Vulnerability Analysis",
+            "message": "Vulnerability lookup skipped: Vulnerability lookup skipped (offline mode). This is NOT evidence that the dependencies are vulnerability-free.",
+            "rule_id": "vuln.lookup_unavailable",
+            "status": "INDETERMINATE",
+            "subjects": []
+          }
+        ],
+        "status": "INDETERMINATE"
+      },
+      {
+        "engine": "License Compliance",
+        "evaluated": true,
+        "rules": [
+          {
+            "engine": "License Compliance",
+            "message": "9 component license(s) comply with policy",
+            "rule_id": "license.ok",
+            "status": "PASS",
+            "subjects": []
+          }
+        ],
+        "status": "PASS"
+      },
+      {
+        "engine": "Artifact Integrity",
+        "evaluated": false,
+        "rules": [
+          {
+            "engine": "Artifact Integrity",
+            "message": "No artifact supplied; integrity not required by policy",
+            "rule_id": "integrity.not_required",
+            "status": "PASS",
+            "subjects": []
+          }
+        ],
+        "status": "PASS"
+      },
+      {
+        "engine": "Provenance Verification",
+        "evaluated": false,
+        "rules": [
+          {
+            "engine": "Provenance Verification",
+            "message": "No provenance supplied; not required by policy",
+            "rule_id": "prov.not_required",
+            "status": "PASS",
+            "subjects": []
+          }
+        ],
+        "status": "PASS"
+      }
+    ],
+    "policy_name": "default",
+    "policy_version": "1",
+    "reasons": [
+      "[Vulnerability Analysis] Vulnerability lookup skipped: Vulnerability lookup skipped (offline mode). This is NOT evidence that the dependencies are vulnerability-free."
+    ],
+    "status": "INDETERMINATE"
+  },
+  "provenance": null,
+  "report_version": "1",
+  "repository_id": "sha256:eb727d997e84f9988351498178cedbaeee7ba1ea213d10d7155109a345a0ae24",
+  "sbom_validation": [
+    {
+      "checks_performed": [
+        "required-fields",
+        "serial-number-format",
+        "unique-bom-ref",
+        "dependency-refs-exist",
+        "purl-prefix",
+        "hash-format"
+      ],
+      "errors": [],
+      "format": "CycloneDX",
+      "schema_validated": false,
+      "spec_version": "1.5",
+      "valid": true
+    },
+    {
+      "checks_performed": [
+        "required-fields",
+        "unique-spdxid",
+        "relationship-refs-exist",
+        "creation-info",
+        "purl-external-ref",
+        "document-describes"
+      ],
+      "errors": [],
+      "format": "SPDX",
+      "schema_validated": false,
+      "spec_version": "SPDX-2.3",
+      "valid": true
+    },
+    {
+      "checks_performed": [
+        "component-set-equal",
+        "dependency-edges-equal"
+      ],
+      "errors": [],
+      "format": "CycloneDX<->SPDX",
+      "schema_validated": false,
+      "spec_version": "1.5/SPDX-2.3",
+      "valid": true
+    }
+  ],
+  "tool_version": "0.1.0",
+  "vulnerability": {
+    "errors": [
+      "Vulnerability lookup skipped (offline mode)"
+    ],
+    "lookup_status": "SKIPPED",
+    "matches": [],
+    "queried_at": null,
+    "severity_counts": {},
+    "source": "OSV (https://api.osv.dev)",
+    "unscanned": [
+      "pkg:npm/accepts@1.3.8",
+      "pkg:npm/debug@2.6.9",
+      "pkg:npm/debug@4.3.4",
+      "pkg:npm/express@4.18.2",
+      "pkg:npm/lodash@4.17.21",
+      "pkg:npm/mocha@10.2.0",
+      "pkg:npm/ms@2.0.0",
+      "pkg:npm/ms@2.1.2",
+      "pkg:npm/negotiator@0.6.3"
+    ],
+    "vulnerabilities": []
+  }
+}
